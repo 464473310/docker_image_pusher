@@ -32,7 +32,7 @@
 #library/mysql:8.0.39
 #docker.elastic.co/elasticsearch/elasticsearch:8.11.3
 #library/ubuntu:22.04
---platform=linux/arm64 nacos-server:v2.2.0
---platform=linux/arm64 minio:RELEASE.2022-06-11T19-55-32Z.fips
---platform=linux/arm64 mongo:latest
---platform=linux/arm64 jvs-rabbitmq:management
+--platform=linux/arm64 nacos/nacos-server:v2.4.0
+--platform=linux/arm64 minio/minio:RELEASE.2022-06-11T19-55-32Z
+--platform=linux/arm64 mongo:8.0-rc
+--platform=linux/arm64 rabbitmq:3.13.7-management
